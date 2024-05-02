@@ -1,0 +1,508 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.head{
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	gap: 7PX;
+	margin-top: 20px;
+
+
+}
+
+.right-img{
+	
+}
+
+.center-content{
+/*	background: blue;*/
+	flex-direction: column;
+	display: flex;
+/*	line-height: 5px;*/
+	margin-top: 20px;
+
+}
+
+#center-content_1{
+	font-weight: bold;
+	color: green;
+	font-family: algerian;
+	font-size: calc(6px + (85 - 6) * (100vw - 320px) / (2100 - 320));
+}
+
+#center-content_3{
+	color: green;
+	font-size: calc(6px + (40 - 6) * (100vw - 320px) / (2100 - 320));
+
+}
+
+#center-content_2{
+	font-size: calc(5px + (55 - 5) * (100vw - 320px) / (2100 - 320));
+}
+
+#center-content_4{
+	
+	font-size: calc(4px + (35 - 4) * (100vw - 320px) / (2100 - 320));
+}
+
+/*STARTING IMAGE AFTER HEAD SECTION RBS*/
+
+.image_1{
+	width: 100%;
+	height: auto;
+}
+/*CLOSING IMAGE AFTER HEAD SECTION RBS*/
+
+
+
+
+/*<!-- STARTING COLUMN 4 HERE -->*/
+
+.left-side-four{
+	background-color: #a02923;
+	display: flex;
+	flex-direction: column;
+	
+}
+
+
+
+.LSB{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-bottom: 2px solid #b73028;
+	font-family: arial;
+	font-size: calc(4px + (41 - 4) * (100vw - 320px) / (2100 - 320));
+}
+
+.anchor{
+	text-decoration: none;
+	color:  #fff;
+}
+
+
+/*<!-- CLOSING COLUMN 4 HERE -->*/
+/*///////////////////////////////////*/
+/*STARTING ABOUT SECTION*/
+
+/* starting column 8 herer*/
+
+.same-color{
+	border-top: 5px solid #a02923;
+} 
+
+.main_content_img{
+	width: 100%;
+	height: auto;
+}
+
+.about-us{
+	margin-top: 5px;
+	font-size: calc(15px + (42 - 15) * (100vw - 320px) / (2100 - 320));
+	color: #a02923;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.about_content{
+	color: rgb(128, 0, 0);
+	font-family: Times New Roman;
+	font-style: italic;
+	font-size: calc(6px + (43 - 6) * (100vw - 320px) / (2100 - 320));
+
+}
+
+/* closing column 8 herer*/
+
+/*CLOSING ABOUT SECTION*/
+
+
+
+
+
+
+
+/*STARTING ADMINISTRATION SECTION*/
+
+/*<!-- STARTING COL MD 9 HERE -->*/
+
+.message{
+	margin-top: 5px;
+	font-size: calc(15px + (42 - 15) * (100vw - 320px) / (2100 - 320));
+	color: #405057;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.message-content{
+	font-family: Times New Roman;
+	font-size: calc(7px + (32 - 7) * (100vw - 320px) / (2100 - 320));
+	color: #405057;
+	padding-left: 15px;
+}
+
+
+/*<!-- CLOSING COL MD 9 HERE -->*/
+/*<!-- ///////////////////////// -->*/
+/*<!-- STARTING COL MD 3  -->*/
+					
+
+
+/*<!-- CLOSING COL MD 3  -->*/
+
+/*CLOSING ADMINISTRATION SECTION*/
+
+
+/*11111111111111111111111111111111111111111111111111111*/
+
+/*STARTING COURSES SECTION*/
+
+
+
+.stream{
+	background-color: red;
+	
+
+	width: 40%;
+}
+
+.Eligibility{
+	width: 20%;
+}
+
+.all-tag-td{
+	font-size: calc(4px + (25 - 4) * (100vw - 320px) / (2100 - 320));
+
+}
+
+.all-tag-th{
+	font-weight: bold;
+	background-color: red;
+	font-size: calc(3px + (28 - 3) * (100vw - 320px) / (2100 - 320));
+color: white;
+}
+
+.width-td{
+	width: 5%;
+
+}
+
+.admission-j{
+	display: flex;
+	gap: 10px;
+	font-size: calc(4px + (28 - 4) * (100vw - 320px) / (2100 - 320));
+}
+
+.admission-j p{
+	font-family: arial;
+}
+
+.admission-b{
+	font-weight: bold;
+	
+}
+
+/*CLOSING COURSES SECTION*/
+
+/*===============+++++++++++++++++++++++++++=============*/
+/*OPENING 5ADMISSION SECTION  */
+
+.admission-j2{
+	display: flex;
+	gap: 10px;
+	font-size: calc(4px + (28 - 4) * (100vw - 320px) / (2100 - 320));
+}
+
+.admission-b2{
+	font-weight: bold;
+	
+}
+
+.admission-section_h6{
+     margin-top: 5px;
+	font-size: calc(15px + (42 - 15) * (100vw - 320px) / (2100 - 320));
+	color: #405057;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.admission-section_para{
+	font-size: calc(6px + (28 - 6) * (100vw - 320px) / (2100 - 320));
+	font-weight: bold;
+}
+
+/*CLOSING 5ADMISSION SECTION  */
+
+/*===========================++++++++++++++++++++++================*/
+
+/*STARTING 6FINAL YEAR DATA.HTML*/
+
+.passout{
+	color: rgb(0, 122, 195);
+	font-size: calc(10px + (35 - 10) * (100vw - 320px) / (2100 - 320));
+}
+
+.branch-name{
+	font-size: calc(10px + (43 - 10) * (100vw - 320px) / (2100 - 320));
+	font-family: Times New Roman;
+	color: #405057;
+}
+
+.Downlod-img{
+	display: flex;
+	gap: 5px;
+	justify-content: space-between;
+	text-align: center;
+}
+.Downlod-img img{
+	
+	width: 18%;
+	height: auto;
+}
+
+.Downlod-img p{
+	text-decoration: none;
+	font-family: Times New Roman;
+	color: rgb(128, 128, 0);
+	font-weight: bold;
+	font-size: calc(10px + (40 - 10) * (100vw - 320px) / (2100 - 320));
+
+}
+
+
+
+/*CLOSING 6FINAL YEAR DATA.HTML*/
+
+/*================+++++++++++++++++++++++++++===================*/
+
+/*STARTING ACTIVITY.HTML*/
+
+.activity{
+	color: #405057;
+	font-weight: bold;
+	font-size: calc(20px + (50 - 20) * (100vw - 320px) / (2100 - 320));
+}
+
+.activity_2{
+	font-weight: bold;
+	margin-top: 2rem;
+	padding-left: 8rem;
+	color: #405057;
+	font-family: Times New Roman;
+	font-size: calc(15px + (42 - 15) * (100vw - 320px) / (2100 - 320));
+
+}
+
+.ncc{
+	
+}
+
+.activity_three-imges{
+	text-align: center;
+}
+
+
+/*CLOSING ACTIVITY.HTML*/
+
+/*=========================+++++++++++++++++++++++++++=============*/
+
+/*STARTING 8ANTI_RAGGING.HTML*/
+
+.anti h6{
+	margin-top: 20px;
+     font-weight: bold;
+     text-decoration: underline;	
+	color: #405057;
+      font-size: calc(10px + (42 - 10) * (100vw - 320px) / (2100 - 320)); 
+}
+
+.anti h5{
+     font-weight: bold;	
+     text-decoration: underline;
+	color: #405057;
+	font-size: calc(20px + (42 - 20) * (100vw - 320px) / (2100 - 320)); 
+}
+
+.anti_2{
+     
+	display: flex;
+	flex-direction: column;
+	
+
+}
+
+.anti_2 p{
+	font-weight: bold;
+	font-family: Times New Roman;
+     color: #405057;
+     margin-bottom: 0px;
+}
+
+
+
+
+/*CLOSING 8ANTI_RAGGING.HTML*/
+
+/*======================+++++++++++++++++++++++==================*/
+
+/*STARTING 9FEES_STRUCTURE.HTML*/
+
+.FEES{
+	font-weight: bold;
+	color: black;
+	font-size: calc(10px + (42 - 10) * (100vw - 320px) / (2100 - 320)); 
+
+}
+
+.full-th{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: calc(4px + (23 - 4) * (100vw - 320px) / (2100 - 320)); 
+}
+
+
+#span-1_th{
+	font-weight: bold;
+	font-family: Times New Roman;
+	color: blue ;
+	
+
+}
+
+
+#span-2_th{
+	font-weight: bold;
+	color: rgb(255, 0, 0);
+	font-family: Times New Roman;
+	
+	
+
+}
+
+#span-3_th{
+	color:rgb(0, 102, 0) ;
+	font-weight: bold;
+	font-family: Times New Roman;
+
+}
+
+.regu{
+	width: 14%;
+}
+
+.bold-color{
+	text-align: center;
+	font-weight: bold;
+	color: #800000;
+	font-family: Times New Roman;
+	font-size: calc(6px + (23 - 6) * (100vw - 320px) / (2100 - 320)); 
+
+}
+
+.lat-data{
+	
+	width: 20%;
+	font-size: calc(6px + (23 - 6) * (100vw - 320px) / (2100 - 320)); 
+}
+
+.Regular-cource{
+	width: 10%;
+}
+
+.Civil2{
+	text-align: left;
+	
+	color: #405057;
+	font-family: Times New Roman;
+	font-size: calc(7px + (25 - 7) * (100vw - 320px) / (2100 - 320)); 
+
+}
+
+.head-fees{
+	width: 7%;
+	text-align: -webkit-center;
+	font-weight: bold;
+	color: #405057;
+	font-family: Times New Roman;
+	font-size: calc(7px + (29 - 7) * (100vw - 320px) / (2100 - 320)); 
+
+}
+
+.head2{
+	text-align: center;
+	font-weight: bold;
+	color: #405057;
+	font-family: Times New Roman;
+	font-size: calc(7px + (29 - 7) * (100vw - 320px) / (2100 - 320)); 
+
+}
+
+.fees2{
+	text-align: center;
+	
+	color: #405057;
+	font-family: Times New Roman;
+	font-size: calc(7px + (29 - 7) * (100vw - 320px) / (2100 - 320)); 
+
+}
+
+.fees_pay-link{
+	font-size: calc(6px + (28 - 6) * (100vw - 320px) / (2100 - 320)); 
+
+}
+
+/*CLOSING 9FEES_STRUCTURE.HTML*/
+
+/*==================+++++++++++++++++++++++++==================*/
+
+/*STARTING 10FACULTY.HTML*/
+
+.head-institute{
+	text-decoration: underline;
+	color: #405057;
+	font-weight: bold;
+	font-size: calc(13px + (45 - 13) * (100vw - 320px) / (2100 - 320)); 
+
+}
+
+.principal-nme{
+	color: gray;
+	font-size: calc(12px + (40 - 12) * (100vw - 320px) / (2100 - 320));
+}
+
+.det{
+     font-weight: bold;
+	font-size: calc(8px + (30 - 8) * (100vw - 320px) / (2100 - 320));
+
+}
+
+.detail{
+	font-weight: 700;
+	color: #000080;
+	font-size: calc(7px + (25 - 7) * (100vw - 320px) / (2100 - 320));
+}
+
+.electrical-engg{
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+}
+
+/*.border-proto{
+	border: 2px solid black;
+}*/
+
+
+/*CLOSING 10FACULTY.HTML*/
+
+
+
+
+
